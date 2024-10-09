@@ -1,3 +1,5 @@
+## Udemy Paid Course Analysis
+
 In this repository, we attempt to compare the performance of paid and unpaid courses on the Udemy platform. 
 Using Python packages such as pyplot, sklearn, and pandas, we evaluate the correlation structures of our data related to the is_paid variable.
 We additionally attempt to predict whether a course is a paid course or not based on the other metrics available in our data set.
