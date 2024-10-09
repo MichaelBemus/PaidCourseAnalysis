@@ -1,0 +1,52 @@
+1a.	Null Hypothesis: Paid Courses have more subscribers.
+	Alternative Hypothesis: Paid Courses have fewer subscribers.
+T-Statistic of num_subscribers:	 -27.359268186204467
+P-Value of num_subscribers:	 1.0
+
+1b.	Null Hypothesis: Paid Courses have more reviews.
+	Alternative Hypothesis: Paid Courses have fewer reviews.
+T-Statistic of num_reviews:	 -5.647266865133345
+P-Value of num_reviews:		 0.9999999918385666
+
+1c.	Null Hypothesis: Paid Courses have more comments.
+	Alternative Hypothesis: Paid Courses have fewer comments.
+T-Statistic of num_comments:	 -7.027373900271113
+P-Value of num_comments:	 0.9999999999989445
+
+2.	Null Hypothesis: Unpaid Courses have higher average ratings.
+	Alternative Hypothesis: Unpaid Courses have lower average ratings.
+T-Statistic of avg_rating:	 64.08543456327455
+P-Value of avg_rating:		 0.0
+
+As shown, for Hypothesis Set 1, under a 0.05 Alpha-Level, we fail to reject the null hypothesis. In all metrics, paid courses see more user traffic.
+
+For Hypothesis 2, under the same 0.05 Alpha-Level, we reject the null hypothesis. Unpaid courses see significantly lower average ratings than paid courses.
+
+Logistic Regression Parameters:
+	Intercept: 3.1966849703701112
+	Beta 1: -2.7522995136851102e-05
+	Beta 2: 0.00023165487794038231
+	Beta 3: -0.0002991988974932154
+	Beta 4: -0.24636296628798443
+
+Logistic Regression train Results
+Model Score on train: 0.895149396058487
+              precision    recall  f1-score   support
+
+       False       0.23      0.01      0.01     16289
+        True       0.90      1.00      0.94    141011
+
+    accuracy                           0.90    157300
+   macro avg       0.56      0.50      0.48    157300
+weighted avg       0.83      0.90      0.85    157300
+
+Logistic Regression test Results
+Model Score on test: 0.8947438684822825
+              precision    recall  f1-score   support
+
+       False       0.24      0.01      0.01      5449
+        True       0.90      1.00      0.94     46985
+
+    accuracy                           0.89     52434
+   macro avg       0.57      0.50      0.48     52434
+weighted avg       0.83      0.89      0.85     52434
