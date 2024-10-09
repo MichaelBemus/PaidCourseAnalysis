@@ -8,7 +8,6 @@ For this project, we used open-sourced data uploaded by Hossain on Kaggle, which
 https://www.kaggle.com/datasets/hossaingh/udemy-courses?select=Course_info.csv
 
 This repository contains the following files.
-* Course_info.csv - The Data Set used for our analysis.
 * paid_course_analysis.py - The Python script used to create our reports and figures.
 * paid_course_out.txt - A copy of the print outputs from our Python script.
 * paid_course_p1.png - A plot containing the data general correlation matrix of our data and boxplots showing the distribution of the is_paid variable.
